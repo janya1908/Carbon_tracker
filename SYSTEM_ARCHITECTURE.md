@@ -146,7 +146,7 @@ sequenceDiagram
 
 ### 1. Electrification Readiness Index (RI)
 Calculates how ready a fleet is for electrification (scored `0` to `100`):
-$$\text{Readiness} = \left( \text{EV}_\% \times 0.4 + \text{Route Suitability} \times 0.3 + \text{Payload Score} \times 0.2 \right) \times \text{Class Multiplier}$$
+$$\text{Readiness} = \left( \text{EV}_{\%} \times 0.4 + \text{Route Suitability} \times 0.3 + \text{Payload Score} \times 0.2 \right) \times \text{Class Multiplier}$$
 
 * **Route Suitability**: Penalizes fleets traveling more than 100 km/day.
 * **Payload Score**: Penalizes heavier loads (harder to electrify).
