@@ -98,7 +98,7 @@ Utilizes SQLite (`netzero.db`) via SQLAlchemy models:
 * **Fleet**: Fleet attributes, operator info, vehicle types, and net-zero targets.
 * **Route**: Source/destination cities, coordinates, distance, trips, vehicle types, and emissions.
 * **EmissionRecord**: Historical 30-month timeseries of Scope 1, Scope 3, avoided emissions, and targets.
-* **NetZeroCommitment**:战略 стратегические (strategic) corporate targets.
+* **NetZeroCommitment**: Strategic corporate roadmap milestones.
 * **Supplier**: Battery minerals (Lithium/Cobalt) risk scores and concentration indexes.
 
 ---
